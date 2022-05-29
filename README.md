@@ -24,15 +24,17 @@ To launch the web app,
 
 ~ Clone the repository on a laptop or system (not compatible with mobiles, tablets or smartphones), recommended to clone in D drive. For this, open the Command Line Prompt and type
 
-~ D: to get into the D drive of the system
+~ D: 
+  to get into the D drive of the system
 
 ~ git clone <insert URL of the cloned repo>
 
 ~ cd <in repo>
 
-~ code . to open the files in VS Code
+~ code . 
+  to open the files in VS Code
 
-~ In VS Code, go to package.json -> in its terminal type <npm install> to install all the dependencies
+~ In VS Code, go to package.json -> in its terminal type <npm install> to install all the dependencies, a folder named "node_modules" will pop-up in the content window
 
 ~ Go to App.js in src -> in its terminal, type <npm start> to launch the app on your browser. After a few seconds of compilation, you'll be redirected to a new browser at http://localhost:3000/, and then will be greeted by a prompt window requesting permission to access the webcam. Upon accepting said request, wait a bit until the model is downloaded and voila, rejoice with the glory of out-of-the-box deep learning.
 
